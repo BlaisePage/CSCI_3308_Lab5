@@ -1,0 +1,42 @@
+Thomas Quinn Langsfeld
+Blaise Page
+Lab1
+
+Questions:Commands
+1:mkdir cs3308
+2:mv cs3308 CS3308
+  mv Downloads/Lab1.zip CS3308
+3: cd Lab1_FILES
+  ls 
+ ls -a
+4:cd pictures/
+ ls -l
+5:cd ..
+ mkdir bigData
+ mv <picture.jpg> bigData
+ mv dracula.txt bidData
+ ls -l
+6: zip bigData.zip bigData 
+7: tar -czvf bigData.tar bigData
+8: rm -r bigData
+  rm bigData.zip
+9: tar -xvf bigData.tar
+10:unzip little1.zip
+   unzip little2.zip
+11:find . target.txt
+   home/user/CS3308/CS3308_FILES/Myster/32/target.txt
+12:head -n 5 texts/heartofdarkness.txt | tail -n 5 texts/dubliners.txt > catFile.txt
+
+Questions:Commands
+1:sort password_demo.txt
+2:sort -k 3 password_demo.txt
+3:sort -k 4 password_demo.txt
+  sort -k 3 password_demo.txt
+4:grep "daemon" password_demo.txt
+5:wc -l password_demo.txt
+6:sort -k 4 password_demo.txt | uniq -u
+7:sort -k 4 password_demo.txt | uniq -u > temp.txt
+8:wc -l password_demo.txt > getUniqueGID.sh
+ chmod +x getUniqueGID.sh
+ ./getUniqueGID.sh
+
